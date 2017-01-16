@@ -32,7 +32,7 @@ class GFG {
 	}
 	
 	private static void rotateLayer(int [][]grid, int rowCol) {
-		int rightCol = grid.length - rowCol - 1;
+	    int rightCol = grid.length - rowCol - 1;
 	    int bottomRow = rightCol;
 	    for (int col = rowCol; col < rightCol; col++) {
 	        //swap top and right
